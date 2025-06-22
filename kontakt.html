@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="home.css" />
+    <title>Contact</title>
+    <style>
+      * {
+        margin-top: -12px;
+      }
+      .cc {
+        padding-top: 15px;
+        font-size: 16px;
+      }
+      #poraka {
+        margin-top: 0.5px;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <header>
+        <nav class="cc">
+          <div class="logo">
+           <a href="index.html"> <img
+              src="sliki/B.jpg"
+              style="
+                height: 75px;
+                width: 100%;
+                border-radius: 15px;
+                margin-top: 15px;
+              "
+            /></a>
+          </div>
+          <ul class="nav-linkovi">
+            <li><a href="index.html" class="nav ">Home</a></li>
+            <li><a href="home.html" class="nav">Biography</a></li>
+            <li><a href="patuvanja.html" class="nav">Journies</a></li>
+            <li><a href="hobi.html" class="nav">Hobbies</a></li>
+            <li><a href="obrazovanie.html" class="nav">Education</a></li>
+            <li><a href="kontakt.html" class="nav aktivna">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <form class="kontakt">
+        <h2 class="naslov">Send Message</h2>
+        <div class="forma">
+          <label for="ime">First and Last Name</label>
+          <input type="text" id="ime" name="ime" required />
+        </div>
+        <div class="forma">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+        <div class="forma">
+          <label for="tema">Subject</label>
+          <input type="text" id="tema" name="tema" required />
+        </div>
+        <div class="forma">
+          <label for="poraka">Message</label>
+          <textarea id="poraka" name="poraka" rows="5" required></textarea>
+        </div>
+        <button type="submit" class="kopce-isprati">Send Message</button>
+      </form>
+    </main>
+    <footer>
+      <div class="cc">
+        <p>&copy; 2025</p>
+      </div>
+    </footer>
+  </body>
+</html>
